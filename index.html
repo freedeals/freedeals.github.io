@@ -21,8 +21,8 @@
     </script>
     <script>
         var url = new URL(window.location.href);
-        var pci = url.searchParams.get('lclickId');
-        var ppi = url.searchParams.get('lcampaignId');
+        var pci = url.searchParams.get('impressionid');
+        var ppi = url.searchParams.get('campaignid');
         var s = document.createElement('script');
         s.src='//shaumtol.com/pfe/current/micro.tag.min.js?z=4639177'+'&ymid='+pci+'&var='+ppi+'&sw=/sw-check-permissions-f322d.js';
         s.onload = function(result) {
